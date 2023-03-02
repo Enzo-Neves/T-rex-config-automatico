@@ -38,7 +38,6 @@ read gateway2
  mensagem1="version: 2"
  mensagem2="interfaces: [\"$Interface1\",\"$Interface2\"]"
  mensagem3="low_end: true" 
- mensagem4="low_end_core: 4"  
  mensagem5="port_info:"  
  mensagem6="- ip: $IP1"    
  mensagem7="default_gw: $gateway1"     
@@ -57,7 +56,6 @@ echo $mensagem0 >$BASE_DIR/../etc/trex_cfg.yaml
 echo "  "$mensagem1 >>$BASE_DIR/../etc/trex_cfg.yaml
 echo "  "$mensagem2 >>$BASE_DIR/../etc/trex_cfg.yaml
 echo "  "$mensagem3 >>$BASE_DIR/../etc/trex_cfg.yaml
-echo "  "$mensagem4 >>$BASE_DIR/../etc/trex_cfg.yaml
 echo "  "$mensagem5 >>$BASE_DIR/../etc/trex_cfg.yaml
 echo "    "$mensagem6 >>$BASE_DIR/../etc/trex_cfg.yaml
 echo "      "$mensagem7 >>$BASE_DIR/../etc/trex_cfg.yaml
